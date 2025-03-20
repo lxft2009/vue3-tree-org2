@@ -95,7 +95,7 @@ export const useTree = (
     menuY.value = e.clientY
     menuData.value = node
   }
-  const scale = ref(1)
+  const scale = ref(props.scale)
   function zoomWheel (e: WheelEvent) {
     if (!props.scalable) return
     e.preventDefault()
