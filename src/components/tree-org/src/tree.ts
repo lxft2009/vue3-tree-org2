@@ -107,6 +107,10 @@ export const treeProps = buildProps({
       return menus
     }
   },
+  scale: {
+    type: Number,
+    default: 1
+  },
   nodeAdd: Function,
   nodeDelete: Function,
   nodeEdit: Function,
